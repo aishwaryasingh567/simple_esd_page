@@ -1,0 +1,60 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+nav {
+    background-color: #182e7c;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav .logo img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav ul.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav ul.nav-links li {
+    margin-right: 20px;
+}
+
+nav ul.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+
+section h1 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* navbar */
+
+
